@@ -1,0 +1,12 @@
+# Site settings
+title: Homepage of Spiros Tzavellas
+email: spiros@tzavellas.com
+description: Homepage of Spiros Tzavellas
+baseurl: ""
+url: "http://www.tzavellas.com"
+twitter_username: sptz45
+github_username:  sptz45
+
+# Build settings
+markdown: kramdown
+exclude: ["tzavellas.com.sublime-project", "tzavellas.com.sublime-workspace"]

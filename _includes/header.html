@@ -1,0 +1,11 @@
+<header class="site-header">
+	<nav>
+		<ul>
+			<li><a href="/" class="{% if page.url == '/index.html' %}active{% endif %}">Home</a></li>
+			<li><a href="/techblog">Blog</a></li>
+			<li><a href="/talks" class="{% if page.url == '/talks/' %}active{% endif %}">Talks</a></li>
+			<li><a href="/projects" class="{% if page.url == '/projects/' %}active{% endif %}">Projects</a></li>
+			<li><a href="/contact" class="{% if page.url == '/contact/' %}active{% endif %}">Contact</a></li>
+		</ul>
+	</nav>
+</header>
